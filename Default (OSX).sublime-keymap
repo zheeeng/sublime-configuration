@@ -1,0 +1,49 @@
+[
+    // Editing
+    { "keys": ["super+c"], "command": "copy" },
+    { "keys": ["super+d"], "command": "duplicate_line" },
+    { "keys": ["super+x"], "command": "cut" },
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+k", "super+v"], "command": "paste_from_history" },
+    { "keys": ["super+j"], "command": "join_lines" },
+
+    // selection
+    { "keys": ["super+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+    { "keys": ["super+g"], "command": "find_under_expand" },
+    { "keys": ["super+e"], "command": "find_under_expand" },
+    { "keys": ["super+k", "super+e"], "command": "find_under_expand_skip" },
+
+    // Text manipulation
+    { "keys": ["super+u"], "command": "upper_case" },
+    { "keys": ["super+l"], "command": "lower_case" },
+    { "keys": ["super+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["super+k", "super+forward_slash"], "command": "toggle_comment", "args": { "block": true } },
+
+    // Bookmark
+    { "keys": ["super+y"], "command": "next_bookmark" },
+    { "keys": ["super+shif+y"], "command": "prev_bookmark" },
+    { "keys": ["super+t"], "command": "toggle_bookmark" },
+    { "keys": ["super+k", "super+t"], "command": "select_all_bookmarks" },
+    { "keys": ["super+k", "super+shift+t"], "command": "clear_bookmarks" },
+
+    // Function
+    { "keys": ["super+alt+["], "command": "fold" },
+    { "keys": ["super+alt+]"], "command": "unfold" },
+    { "keys": ["super+k", "super+s"], "command": "toggle_setting", "args": {"setting": "spell_check"} },
+
+    // Window, Tabs, Screen, Position
+    { "keys": ["ctrl+b"], "command": "jump_back" },
+    { "keys": ["super+ctrl+f"], "command": "toggle_full_screen" },
+    { "keys": ["super+ctrl+c"], "command": "toggle_distraction_free" },
+    { "keys": ["super+w"], "command": "close" },
+    { "keys": ["super+shift+w"], "command": "reopen_last_file" },
+    { "keys": ["super+k", "super+c"], "command": "show_at_center" },
+    { "keys": ["super+k", "super+d"], "command": "goto_definition" },
+
+    // Functional Panel & Palette
+    { "keys": ["super+k", "super+b"], "command": "toggle_side_bar" },
+    { "keys": ["ctrl+0"], "command": "focus_side_bar" },
+    { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+    { "keys": ["super+k", "super+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+    { "keys": ["super+n"], "command": "advanced_new_file_new"}
+]
