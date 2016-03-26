@@ -1,0 +1,39 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"copy_with_empty_selection": true,
+	"drag_text": false,
+	"draw_minimap_border": true,
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Source Code Pro Medium",
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
+	"predawn_findreplace_small": true,
+	"predawn_quick_panel_small": true,
+	"predawn_sidebar_large": true,
+	"predawn_tabs_active_underline": true,
+	"predawn_tabs_medium": true,
+	"remember_full_screen": true,
+	"scroll_past_end": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tabs_medium": true,
+	"theme": "predawn-DEV.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
+	"word_wrap": true
+}

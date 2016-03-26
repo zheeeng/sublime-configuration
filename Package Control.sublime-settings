@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"BracketHighlighter",
+		"ColorHelper",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"Package Control",
+		"Predawn",
+		"SideBarEnhancements",
+		"SublimeCodeIntel"
+	]
+}

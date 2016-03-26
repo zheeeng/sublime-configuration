@@ -14,5 +14,30 @@
 
 ## Configuration List
 
-TBC
+### Key Map
+
+Check it [here](./Shortctus.md)
+
+### Plugin && Noticeable Plugin Usage:
+
+#### AdvancedNewFile
+
+* Typing `ANF` + `New File`/`Delete File`/... in Command Palette to perform corresponding execution.
+* Pressing `⌘ + ⇧ + ⌥ + N` create new folder which contains `__init__.py` file.
+
+#### BracketHighlighter
+
+#### ColorHelper
+
+#### DocBlockr
+
+#### Emmet
+
+### Git
+
+#### Predawn
+
+### SideBarEnhancements
+
+### SublimeCodeIntel
 
