@@ -1,6 +1,4 @@
-# Sublime Configuration
-
-This is the `User` folder of my Sublime Text 3.
+# Configuration on Sublime Text3 for OS X
 
 ## Usage
 
@@ -10,14 +8,11 @@ This is the `User` folder of my Sublime Text 3.
         $: cd "~/Library/Application Support/Sublime Text 3/Packages/"
         $: git clone https://github.com/zheeeng/sublime-configuration User
 
-3. Install [Package Control](http://wbond.net/sublime_packages/package_control) and run `Package Control: Upgrade/Overwrite Package` in Command Palette(⌘ + ⇧ + P).
-
-## Sublime Application Icon
-
-Alternative icon for Sublime Text: <https://github.com/jamiewilson/predawn-icons>
+3. In Sublime Text, install [Package Control](http://wbond.net/sublime_packages/package_control) and run `Package Control: Upgrade/Overwrite Package` in Command Palette(⌘ + ⇧ + P).
+4. In `User` folder, run script `sh theme_setup.sh`.
+5. Download Predawn application icon from <https://github.com/jamiewilson/predawn-icons> and replace the original Sublime Text icon with it.
 
 ## Configuration List
 
 TBC
-
 
