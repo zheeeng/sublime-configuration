@@ -6,11 +6,15 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"Autoprefixer",
 		"BracketHighlighter",
 		"ColorHelper",
+		"Compare Side-By-Side",
 		"DocBlockr",
 		"Emmet",
 		"Git",
+		"HTML-CSS-JS Prettify",
+		"Local History",
 		"Package Control",
 		"Predawn",
 		"SideBarEnhancements",

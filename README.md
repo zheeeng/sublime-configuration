@@ -14,11 +14,11 @@
 
 ## Configuration List
 
-### Key Map
+### Keys Remap
 
 Check it [here](./Shortctus.md)
 
-### Plugin && Noticeable Plugin Usage:
+### Plugin && Noticeable Plugin Usages:
 
 #### AdvancedNewFile
 
@@ -27,7 +27,23 @@ Check it [here](./Shortctus.md)
 
 #### BracketHighlighter
 
+Command Palette:
+* `BracketHighlighter: Remove Brackets` (Shorcut to call this palette: ⌘ + ⇧ + M)
+* `BracketHighlighter: Select Bracket Content` (Shorcut: ⌘ + M)
+* `BracketHighlighter: Swap Brackets`
+* `BracketHighlighter: Swap Quotes`
+* `BracketHighlighter: Wrap Selection with Brackets`(or quotes)
+
 #### ColorHelper
+
+#### Compare Side-By-Side
+
+* Compare between Tabs:
+    * `Compare with...` selected file
+    * or `Compare with active tab`
+* Compare between selections:
+    * `Mark selection for comparison`, then `Compare selection`
+    * or hold `Command/Ctrl` select two selection, then `Compare selection`
 
 #### DocBlockr
 

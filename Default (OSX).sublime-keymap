@@ -8,7 +8,21 @@
     { "keys": ["super+j"], "command": "join_lines" },
 
     // selection
-    { "keys": ["super+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+    {
+        "keys": ["super+m"],
+        "command": "bh_key",
+        "args":
+        {
+            "no_outside_adj": null,
+            "lines" : true,
+            "plugin":
+            { "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"always_include_brackets": true}
+            }
+        }
+    },
+    { "keys": ["super+shift+m"], "command": "bh_remove_brackets" },
     { "keys": ["super+g"], "command": "find_under_expand" },
     { "keys": ["super+e"], "command": "find_under_expand" },
     { "keys": ["super+k", "super+e"], "command": "find_under_expand_skip" },
@@ -45,5 +59,7 @@
     { "keys": ["ctrl+0"], "command": "focus_side_bar" },
     { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
     { "keys": ["super+k", "super+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
-    { "keys": ["super+n"], "command": "advanced_new_file_new"}
+    { "keys": ["super+n"], "command": "new_file" },
+    { "keys": ["super+alt+n"], "command": "advanced_new_file_new"}
+
 ]

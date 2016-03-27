@@ -18,11 +18,12 @@ Keypress    | Command
 *⌘ + ⌃ + ↓*     | Move line/selection down
 
 ## Selection
-Keypress    | Command
-:---------: |:-------
-**⌘ + M**   | Select all contents of the current parentheses
-**⌘ + G**   | Select all occurrences of current selection
-**⌘ + E**   | Select word - Repeat to select next occurrence
+Keypress        | Command
+:-------------: |:-------
+**⌘ + M**       | BracketHighlighter: Expand selection to outer brackets
+**⌘ + ⇧ + M**   | BracketHighlighter: Call Remove Brackets Palette
+**⌘ + G**       | Select all occurrences of current selection
+**⌘ + E**       | Select word - Repeat to select next occurrence
 **⌘ + K, ⌘ + E**    | Skip current occurrence
 
 ## Text manipulation
@@ -40,7 +41,7 @@ Keypress    | Command
 
 Keypress        | Command
 :-------------: |:-------
-**⌘ + y**       | Next bookmark
+**⌘ + Y**       | Next bookmark
 **⌘ + ⇧ + y**   | Previous bookmark
 **⌘ + t**       | Toggle bookmark
 **⌘ + K, ⌘ + t**        | Select all bookmarks
@@ -71,6 +72,8 @@ Keypress    | Command
 *⌘ + ⌥ + ←*     | Previous tab
 ⌘ + K, ⌘ + C    | Show cursor at the middle of the screen
 **⌘ + K, ⌘ + D** | Goto definition
+*⌘ + K, ⌘ + ↑*  | Split screen panel
+*⌘ + K, ⌘ + ↓*  | Close current screen panel
 
 ## Functional Panel & Palette
 
@@ -82,7 +85,8 @@ Keypress    | Command
 *⌘ + ↩*         | Find next occurrence
 *⌘ + ⇧ + ↩*     | Find previous occurrence
 **⌘ + K, ⌘ + F** | Find in files
-**⌘ + N**       | Advanced new file
+⌘ + N           | New file
+⌘ + ⌥ + N       | AdvancedNewFile: New file
 *⌘ + B*         | Build
 *⌃ + `*         | Console
 *⌘ + P*         | Goto Palette
