@@ -20,8 +20,8 @@ Keypress    | Command
 ## Selection
 Keypress        | Command
 :-------------: |:-------
-**⌘ + M**       | BracketHighlighter: Expand selection to outer brackets
-**⌘ + ⇧ + M**   | BracketHighlighter: Call Remove Brackets Palette
+**⌘ + M**       | **BracketHighlighter**: Expand selection to outer brackets
+**⌘ + ⇧ + M**   | **BracketHighlighter**: Call Remove Brackets Palette
 **⌘ + G**       | Select all occurrences of current selection
 **⌘ + E**       | Select word - Repeat to select next occurrence
 **⌘ + K, ⌘ + E**    | Skip current occurrence
@@ -57,6 +57,7 @@ Keypress        | Command
 ⌘ + ⌥ + [       | Fold block
 ⌘ + ⌥ + ]       | Unfold block
 **⌘ + K, ⌘ + S**  | Toggle spelling check
+**⌘ + K, ⌘ + R**  | **DocBlockr**: Reformat comment paragraphs
 
 ## Window, Tabs, Screen, Position
 
@@ -86,7 +87,7 @@ Keypress    | Command
 *⌘ + ⇧ + ↩*     | Find previous occurrence
 **⌘ + K, ⌘ + F** | Find in files
 ⌘ + N           | New file
-⌘ + ⌥ + N       | AdvancedNewFile: New file
+⌘ + ⌥ + N       | **AdvancedNewFile**: New file
 *⌘ + B*         | Build
 *⌃ + `*         | Console
 *⌘ + P*         | Goto Palette

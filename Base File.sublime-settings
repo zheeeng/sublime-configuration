@@ -1,0 +1,18 @@
+{
+    "jsdocs_indentation_spaces_same_para": 3,
+    "jsdocs_align_tags": "shallow",
+    "jsdocs_notation_map": [
+        {
+            "regex": "tbl_?[Rr]ow", /* any arbitrary regex to test against the variable name */
+            "type": "TableRow"      /* you can add your own types */
+        },
+        {
+            "prefix": "_",
+            "tags": ["@private"]
+        },
+        {
+          "regex": "_$",
+          "tags": ["@private"]
+        }
+    ]
+}

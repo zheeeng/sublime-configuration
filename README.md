@@ -22,14 +22,23 @@ Check it [here](./Shortctus.md)
 
 #### AdvancedNewFile
 
-* Typing `ANF` + `New File`/`Delete File`/... in Command Palette to perform corresponding execution.
-* Pressing `⌘ + ⇧ + ⌥ + N` create new folder which contains `__init__.py` file.
+Shortcuts:
+
+* <kbd>⌘ + ⌥ + M</kbd>: Advanced New File
+* <kbd>⌘ + ⇧ + ⌥ + N</kbd>: Create new folder which contains `__init__.py` file.
+
+Command Palette:
+
+* `ANF: Delete File`
+* `ANF: Rename File`
+* `ANF: Copy Current File`
 
 #### BracketHighlighter
 
 Command Palette:
-* `BracketHighlighter: Remove Brackets` (Shorcut to call this palette: ⌘ + ⇧ + M)
-* `BracketHighlighter: Select Bracket Content` (Shorcut: ⌘ + M)
+
+* `BracketHighlighter: Remove Brackets` (Shortcut to call this palette: <kbd>⌘ + ⇧ + M</kbd>)
+* `BracketHighlighter: Select Bracket Content` (Shortcut: <kbd>⌘ + M</kbd>)
 * `BracketHighlighter: Swap Brackets`
 * `BracketHighlighter: Swap Quotes`
 * `BracketHighlighter: Wrap Selection with Brackets`(or quotes)
@@ -47,9 +56,27 @@ Command Palette:
 
 #### DocBlockr
 
+Shortcuts:
+
+* <kbd>⌘ + K, ⌘ + R</kbd>: Reformat comment paragraphs
+
+Command Palette:
+
+* `DocBlockr：Reparse comment block`
+
 #### Emmet
 
 ### Git
+
+### GitGutter
+
+Command Palette:
+* `GitGutter: Compare Against Branch`
+* `GitGutter: Compare Against Commit`
+* `GitGutter: Compare Against HEAD`
+* `GitGutter: Compare Against Origin`
+* `GitGutter: Compare Against Tag`
+* `GitGutter: Showing Comparing Against`
 
 #### Predawn
 

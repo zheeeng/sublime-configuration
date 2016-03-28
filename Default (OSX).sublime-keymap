@@ -32,6 +32,11 @@
     { "keys": ["super+l"], "command": "lower_case" },
     { "keys": ["super+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
     { "keys": ["super+k", "super+forward_slash"], "command": "toggle_comment", "args": { "block": true } },
+    { "keys": ["super+k", "super+r"], "command": "jsdocs_wrap_lines",
+        "context": [
+          { "key": "selector", "operator": "equal", "operand": "comment.block", "match_all": true }
+        ]
+      },
 
     // Bookmark
     { "keys": ["super+y"], "command": "next_bookmark" },
