@@ -1,4 +1,4 @@
-# Configuration on Sublime Text3 for OS X
+# Configuration on Sublime Text 3 for OS X
 
 ## Usage
 
