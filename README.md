@@ -78,6 +78,10 @@ Command Palette:
 * `GitGutter: Compare Against Tag`
 * `GitGutter: Showing Comparing Against`
 
+### LocalHistory
+
+File revision is stored in a separate file (with full path) inside the .sublime/history folder of your home directory.
+
 #### Predawn
 
 ### SideBarEnhancements
