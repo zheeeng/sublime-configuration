@@ -4,6 +4,7 @@
     { "keys": ["super+d"], "command": "duplicate_line" },
     { "keys": ["super+x"], "command": "cut" },
     { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+alt+v"], "command": "paste" },
     { "keys": ["super+k", "super+v"], "command": "paste_from_history" },
     { "keys": ["super+j"], "command": "join_lines" },
 
