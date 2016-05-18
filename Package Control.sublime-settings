@@ -10,6 +10,7 @@
 		"BracketHighlighter",
 		"ColorHelper",
 		"Compare Side-By-Side",
+		"CSScomb",
 		"DocBlockr",
 		"Emmet",
 		"FindKeyConflicts",
@@ -19,6 +20,7 @@
 		"Local History",
 		"Package Control",
 		"Predawn",
+		"Sass",
 		"SideBarEnhancements",
 		"SublimeCodeIntel"
 	]

@@ -54,6 +54,12 @@ Command Palette:
     * `Mark selection for comparison`, then `Compare selection`
     * or hold `Command/Ctrl` select two selection, then `Compare selection`
 
+#### CSScomb
+
+Re-config "node-path" in "CSScomb.sublime-settings":
+
+    "node-path" : ":/directory/path/to/your/node/binary"
+
 #### DocBlockr
 
 Shortcuts:
