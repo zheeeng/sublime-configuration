@@ -1,4 +1,9 @@
 [
+    // Basic
+
+    { "keys": ["super+s"], "command": "chain", "args": { "commands": [ ["save"], ["css_comb"] ] } },
+    { "keys": ["super+alt+s"], "command": "chain", "args": { "commands": [ ["save_all"], ["css_comb"] ] } },
+
     // Editing
     { "keys": ["super+c"], "command": "copy" },
     { "keys": ["super+d"], "command": "duplicate_line" },
@@ -8,7 +13,7 @@
     { "keys": ["super+k", "super+v"], "command": "paste_from_history" },
     { "keys": ["super+j"], "command": "join_lines" },
 
-    // selection
+    // Selection
     {
         "keys": ["super+m"],
         "command": "bh_key",

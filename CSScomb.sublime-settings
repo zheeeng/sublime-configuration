@@ -2,8 +2,4 @@
     // If plugin has trouble finding Node.js, replace this string with path
     // to your `node` bin
     "node-path" : ":/Users/Zheeeng/.nvm/versions/node/v6.1.0/bin",
-
-    "config": {
-        "space-before-opening-brace": " ",
-    }
 }
