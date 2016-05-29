@@ -1,7 +1,7 @@
 [
     // Basic
 
-    { "keys": ["super+s"], "command": "chain", "args": { "commands": [ ["save"], ["css_comb"], ["htmlprettify"] ] } },
+    { "keys": ["super+s"], "command": "chain", "args": { "commands": [ ["htmlprettify"], ["save"] ] } },
     {
         "keys": ["super+alt+s"],
         "command": "chain",
