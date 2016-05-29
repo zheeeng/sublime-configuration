@@ -2,24 +2,7 @@
     // Basic
 
     { "keys": ["super+s"], "command": "chain", "args": { "commands": [ ["htmlprettify"], ["save"] ] } },
-    {
-        "keys": ["super+alt+s"],
-        "command": "chain",
-        "args": {
-            "commands": [
-                ["save_all"],
-                ["css_comb"],
-                ["html_beautify", {
-                    "context": [{
-                        // these options ensure that the command is executed in the right files/context
-                        "key": "selector",
-                        "operator": "equal",
-                        "operand": "text.html,text.html.twig,text.twig,source.html,source.html.twig,source.twig"
-                    }]
-                }]
-            ]
-        }
-    },
+    { "keys": ["super+alt+s"], "command": "chain", "args": { "commands": [ ["htmlprettify"], ["save_all"] ] } },
 
     // Editing
     { "keys": ["super+c"], "command": "copy" },
