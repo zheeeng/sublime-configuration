@@ -18,11 +18,20 @@
 		"Git",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
+		"HTMLAttributes",
+		"ImprovedMacros",
+		"Jade",
 		"Local History",
 		"Package Control",
 		"Predawn",
 		"Sass",
 		"SideBarEnhancements",
-		"SublimeCodeIntel"
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-sublime-syntax"
+	],
+	"repositories":
+	[
+		"https://github.com/skuroda/ImprovedMacros"
 	]
 }

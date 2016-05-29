@@ -1,8 +1,25 @@
 [
     // Basic
 
-    { "keys": ["super+s"], "command": "chain", "args": { "commands": [ ["save"], ["css_comb"] ] } },
-    { "keys": ["super+alt+s"], "command": "chain", "args": { "commands": [ ["save_all"], ["css_comb"] ] } },
+    { "keys": ["super+s"], "command": "chain", "args": { "commands": [ ["save"], ["css_comb"], ["htmlprettify"] ] } },
+    {
+        "keys": ["super+alt+s"],
+        "command": "chain",
+        "args": {
+            "commands": [
+                ["save_all"],
+                ["css_comb"],
+                ["html_beautify", {
+                    "context": [{
+                        // these options ensure that the command is executed in the right files/context
+                        "key": "selector",
+                        "operator": "equal",
+                        "operand": "text.html,text.html.twig,text.twig,source.html,source.html.twig,source.twig"
+                    }]
+                }]
+            ]
+        }
+    },
 
     // Editing
     { "keys": ["super+c"], "command": "copy" },
