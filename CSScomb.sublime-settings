@@ -78,16 +78,17 @@
             [ "$variable" ],
             [ "$include" ],
             [
+                /* Positioning */
                 "position",
                 "z-index",
                 "top",
                 "right",
                 "bottom",
-                "left"
-            ],
-            [
+                "left",
+                /* Display */
                 "display",
                 "visibility",
+                "opacity",
                 "float",
                 "clear",
                 "overflow",
@@ -97,10 +98,36 @@
                 "-ms-overflow-y",
                 "clip",
                 "zoom",
+                /* Flexible Box Layout */
+                "-webkit-flex",
+                "-ms-flex",
+                "flex",
+                "-webkit-flex-basis",
+                "flex-basis",
+                "-webkit-flex-direction",
                 "flex-direction",
+                "-webkit-flex-flow",
+                "flex-flow",
+                "-webkit-flex-grow",
+                "flex-grow",
+                "-webkit-flex-shrink",
+                "flex-shrink",
+                "-webkit-flex-wrap",
+                "flex-wrap",
+                "-webkit-align-content",
+                "align-content",
+                "-webkit-align-items",
+                "align-items",
+                "-webkit-align-self",
+                "align-self",
+                "-webkit-justify-content",
+                "justify-content",
+                "-webkit-order",
+                "order",
                 "flex-order",
                 "flex-pack",
                 "flex-align",
+                /* Box Model */
                 "-webkit-box-sizing",
                 "-moz-box-sizing",
                 "box-sizing",
@@ -119,20 +146,23 @@
                 "padding-top",
                 "padding-right",
                 "padding-bottom",
-                "padding-left"
-            ],
-            [
+                "padding-left",
+                /* Table Properties */
                 "table-layout",
                 "empty-cells",
                 "caption-side",
                 "border-spacing",
-                "border-collapse",
+                "border-collapse"
+            ],
+            [
+                /* Lists and Counters Properties */
                 "list-style",
                 "list-style-position",
                 "list-style-type",
-                "list-style-image"
-            ],
-            [
+                "list-style-image",
+                "counter-reset",
+                "counter-increment",
+                /* Font Properties */
                 "font",
                 "font-family",
                 "font-size",
@@ -146,14 +176,53 @@
                 "font-emphasize-position",
                 "font-emphasize-style",
                 "font-smooth",
-                "line-height"
+                "line-height",
+                "color",
+                /* Text Properties */
+                "text-align",
+                "-webkit-text-align-last",
+                "-moz-text-align-last",
+                "-ms-text-align-last",
+                "text-align-last",
+                "vertical-align",
+                "white-space",
+                "text-decoration",
+                "text-shadow",
+                "text-emphasis",
+                "text-emphasis-color",
+                "text-emphasis-style",
+                "text-emphasis-position",
+                "text-indent",
+                "-ms-text-justify",
+                "text-justify",
+                "letter-spacing",
+                "word-spacing",
+                "-ms-writing-mode",
+                "direction",
+                "text-outline",
+                "text-transform",
+                "text-wrap",
+                "-ms-text-overflow",
+                "text-overflow",
+                "text-overflow-ellipsis",
+                "text-overflow-mode",
+                "-ms-word-wrap",
+                "word-wrap",
+                "word-break",
+                "-ms-word-break",
+                "-moz-tab-size",
+                "-o-tab-size",
+                "tab-size",
+                "-webkit-hyphens",
+                "-moz-hyphens",
+                "hyphens",
+                "pointer-events"
             ],
             [
-                "opacity",
+                /* Filter Effects Properties*/
                 "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity",
                 "-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",
                 "-ms-interpolation-mode",
-                "color",
                 "border",
                 "border-width",
                 "border-style",
@@ -242,14 +311,12 @@
                 "-moz-box-shadow",
                 "box-shadow",
                 "filter:progid:DXImageTransform.Microsoft.gradient",
-                "-ms-filter:\\'progid:DXImageTransform.Microsoft.gradient",
-                "text-shadow"
+                "-ms-filter:\\'progid:DXImageTransform.Microsoft.gradient"
             ],
             [
+                /* Other stuffs*/
                 "content",
                 "quotes",
-                "counter-reset",
-                "counter-increment",
                 "resize",
                 "cursor",
                 "-webkit-user-select",
@@ -260,7 +327,10 @@
                 "nav-up",
                 "nav-right",
                 "nav-down",
-                "nav-left",
+                "nav-left"
+            ],
+            [
+                /* Transitions Properties */
                 "-webkit-transition",
                 "-moz-transition",
                 "-ms-transition",
@@ -285,7 +355,10 @@
                 "-moz-transition-property",
                 "-ms-transition-property",
                 "-o-transition-property",
-                "transition-property",
+                "transition-property"
+            ],
+            [
+                /* Transform Properties */
                 "-webkit-transform",
                 "-moz-transform",
                 "-ms-transform",
@@ -295,7 +368,10 @@
                 "-moz-transform-origin",
                 "-ms-transform-origin",
                 "-o-transform-origin",
-                "transform-origin",
+                "transform-origin"
+            ],
+            [
+                /* Animation Properties */
                 "-webkit-animation",
                 "-moz-animation",
                 "-ms-animation",
@@ -335,43 +411,7 @@
                 "-moz-animation-direction",
                 "-ms-animation-direction",
                 "-o-animation-direction",
-                "animation-direction",
-                "text-align",
-                "-webkit-text-align-last",
-                "-moz-text-align-last",
-                "-ms-text-align-last",
-                "text-align-last",
-                "vertical-align",
-                "white-space",
-                "text-decoration",
-                "text-emphasis",
-                "text-emphasis-color",
-                "text-emphasis-style",
-                "text-emphasis-position",
-                "text-indent",
-                "-ms-text-justify",
-                "text-justify",
-                "letter-spacing",
-                "word-spacing",
-                "-ms-writing-mode",
-                "text-outline",
-                "text-transform",
-                "text-wrap",
-                "text-overflow",
-                "-ms-text-overflow",
-                "text-overflow-ellipsis",
-                "text-overflow-mode",
-                "-ms-word-wrap",
-                "word-wrap",
-                "word-break",
-                "-ms-word-break",
-                "-moz-tab-size",
-                "-o-tab-size",
-                "tab-size",
-                "-webkit-hyphens",
-                "-moz-hyphens",
-                "hyphens",
-                "pointer-events"
+                "animation-direction"
             ]
         ]
     }
