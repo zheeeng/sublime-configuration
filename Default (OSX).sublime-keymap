@@ -1,8 +1,8 @@
 [
     // Basic
 
-    { "keys": ["super+s"], "command": "chain", "args": { "commands": [ ["css_comb"], ["save"] ] } },
-    { "keys": ["super+alt+s"], "command": "chain", "args": { "commands": [ ["css_comb"], ["save_all"] ] } },
+    { "keys": ["super+s"], "command": "chain", "args": { "commands": [ ["save"] ] } },
+    { "keys": ["super+alt+s"], "command": "chain", "args": { "commands": [ ["save_all"] ] } },
 
     // Editing
     { "keys": ["super+c"], "command": "copy" },
