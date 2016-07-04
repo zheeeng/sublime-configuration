@@ -10,7 +10,7 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -30,6 +30,7 @@
 	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_line_endings": true,
+	"tab-size": 2,
 	"tabs_medium": true,
 	"theme": "predawn-DEV.sublime-theme",
 	"translate_tabs_to_spaces": true,

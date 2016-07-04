@@ -25,7 +25,9 @@
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeLinter-contrib-sublime-syntax"
+		"SublimeLinter-contrib-sublime-syntax",
+		"TypeScript",
+		"Vue Syntax Highlight"
 	],
 	"repositories":
 	[
