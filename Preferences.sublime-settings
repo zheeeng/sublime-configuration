@@ -2,6 +2,7 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Predawn/predawn.tmTheme",
 	"copy_with_empty_selection": true,
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"drag_text": false,
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -10,7 +11,7 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 15,
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -30,6 +31,7 @@
 	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_line_endings": true,
+	"spell_check": true,
 	"tab-size": 2,
 	"tabs_medium": true,
 	"theme": "predawn-DEV.sublime-theme",
