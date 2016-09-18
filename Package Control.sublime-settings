@@ -7,6 +7,7 @@
 	[
 		"AdvancedNewFile",
 		"Autoprefixer",
+		"Babel",
 		"BracketHighlighter",
 		"Chain of Command",
 		"ColorHelper",
@@ -27,6 +28,7 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-sublime-syntax",
 		"TypeScript",
+		"Vanilla lodash Snippets",
 		"Vue Syntax Highlight"
 	],
 	"repositories":
