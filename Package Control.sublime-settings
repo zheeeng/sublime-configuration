@@ -26,6 +26,7 @@
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-sublime-syntax",
 		"TypeScript",
 		"Vanilla lodash Snippets",
